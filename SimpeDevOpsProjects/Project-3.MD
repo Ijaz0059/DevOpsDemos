@@ -65,6 +65,9 @@ D) send files or execute commands over SSH
 
 7. Login to Docker host and check images and containers. (no images and containers)
 
+- chown -R  dockeradmin:dockeradmin /opt/docker  # give ownership to dockeradmin
+
+
 8. Execute Jenkins job
 
 9. check images and containers again on Docker host. This time an image and container get creates through Jenkins job
